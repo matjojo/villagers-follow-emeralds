@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "villagers-follow-emeralds",
+  "version": "${version}",
+  "name": "Villagers Follow Emeralds",
+  "description": "Villagers will follow you when you're holding emeralds.",
+  "authors": [
+    "Matjojo"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/villagers-follow-emeralds/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "matjojo.VillagersFollowEmeraldsMod"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "villagers-follow-emeralds.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0"
+  }
+}
