@@ -8,7 +8,10 @@
     "Matjojo"
   ],
   "contributors": [],
-  "contact": {},
+  "contact": {
+    "homepage": "https://github.com/matjojo/villagers-follow-emeralds",
+    "sources": "https://github.com/matjojo/villagers-follow-emeralds",
+    "issues": "https://github.com/matjojo/villagers-follow-emeralds/issues"},
   "license": "MIT",
   "icon": "assets/villagers-follow-emeralds/icon.png",
   "environment": "*",
