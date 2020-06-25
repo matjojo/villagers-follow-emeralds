@@ -13,9 +13,7 @@
   "icon": "assets/villagers-follow-emeralds/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "matjojo.VillagersFollowEmeraldsMod"
-    ],
+    "main": [],
     "client": [],
     "server": []
   },
@@ -23,6 +21,7 @@
     "villagers-follow-emeralds.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.4.0"
+    "fabricloader": ">=0.4.0",
+    "minecraft": "1.16.1"
   }
 }
