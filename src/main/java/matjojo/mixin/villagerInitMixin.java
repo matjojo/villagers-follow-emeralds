@@ -23,7 +23,7 @@ public abstract class villagerInitMixin extends AbstractTraderEntity {
 	@Inject(method = "<init>(Lnet/minecraft/entity/EntityType;Lnet/minecraft/world/World;Lnet/minecraft/village/VillagerType;)V",
 	at = @At(value = "TAIL"))
 	private void inject(EntityType<? extends VillagerEntity> entityType, World world, VillagerType type, CallbackInfo ci) {
-		this.goalSelector.add(2, new TemptGoal(this, .4D, false, Ingredient.ofItems(Items.EMERALD, Items.EMERALD_BLOCK, Items.EMERALD_ORE)));
+		this.goalSelector.add(2, new TemptGoal(this, .4D, false, Ingredient.ofItems(Items.EMERALD_BLOCK, Items.EMERALD_ORE)));
 	}
 
 }
