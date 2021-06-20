@@ -24,7 +24,7 @@
     "villagers-follow-emeralds.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.4.0",
-    "minecraft": ">=1.16.1"
+    "fabricloader": ">=0.7.3",
+    "minecraft": ">=1.17.0"
   }
 }
